@@ -104,7 +104,7 @@ class MenuScene extends Phaser.Scene{
       }
     });
 
-    this.add.text(20,580,'Version 1.0 Fusion',{fontFamily:'"Press Start 2P"',fontSize:'10px',color:'#aaa'}).setOrigin(0,1);
+    this.add.text(20,580,'Accès Dev. - Version Alpha 0.3.2',{fontFamily:'"Press Start 2P"',fontSize:'10px',color:'#aaa'}).setOrigin(0,1);
     this.add.text(940,580,'by IMAGINe Studio & Engine HwR',{fontFamily:'"Press Start 2P"',fontSize:'10px',color:'#aaa'}).setOrigin(1,1);
 
     this._buildOptions(); this._buildCredits();
